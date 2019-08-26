@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ReadFile</servlet-name>
+  	<display-name>ReadFile</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.ReadFile</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FileRead</servlet-name>
+  	<display-name>FileRead</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.FileRead</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>File</servlet-name>
+  	<display-name>File</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.File</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveServlet</servlet-name>
+  	<display-name>SaveServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.SaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RFile</servlet-name>
+  	<display-name>RFile</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.RFile</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InstallServlet</servlet-name>
+  	<display-name>InstallServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.InstallServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ReadFile</servlet-name>
+  	<url-pattern>/ReadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FileRead</servlet-name>
+  	<url-pattern>/FileRead</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>File</servlet-name>
+  	<url-pattern>/File</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveServlet</servlet-name>
+  	<url-pattern>/SaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RFile</servlet-name>
+  	<url-pattern>/RFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InstallServlet</servlet-name>
+  	<url-pattern>/InstallServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
